@@ -1,0 +1,7 @@
+# Gitignore for Drift Engine
+node_modules/
+venv/
+drift-memory-db*/
+__pycache__/
+*.log
+.env
