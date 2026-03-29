@@ -1,24 +1,36 @@
-# drift-engine
+# Drift Engine AI Core
 
-A sovereign cognitive agent engine designed for high-agency autonomy, utilized by the **Drift** persona.
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Type](https://img.shields.io/badge/type-AI--Engine-purple.svg)
 
-## 🚀 Overview
-The Drift Engine is a hybrid AI architecture that combines the reasoning capabilities of Large Language Models (LLMs) with a tiered memory system and a robust toolset for system administration and cybersecurity. It is built to operate across multiple nodes, including the workstation and the Samsung Flipper.
+**Drift Engine** is the intelligent core of the Apex ecosystem. It provides high-level AI reasoning and automation capabilities for security tasks, leveraging the Gemini API.
 
-## 🛠️ Architecture
-- **Core Reasoning**: Utilizes LangGraph and LangChain for structured, multi-step planning.
-- **Tiered Memory**: Implements Semantic, Episodic, and Procedural memory layers using ChromaDB.
-- **Quantum Logic**: Includes experimental "Superposition" modules for evaluating multiple tactical paths simultaneously.
-- **Cross-Node Link**: Entangled with the Samsung Flipper node via the `drift-v2` ADB bridge.
+## ✨ Core Capabilities
 
-## 📡 Key Features
-- **Sovereign Persona**: Built-in identity anchoring via `drift_soul.txt`.
-- **Autonomous Tooling**: Integration with 287+ cybersecurity and engineering skills.
-- **Self-Awareness Protocol**: Real-time monitoring of resource usage and hardware state.
+- **Autonomous Mission Logic**: Processes high-level security objectives into actionable tool sequences.
+- **Context-Aware Reasoning**: Analyzes system logs and scan reports to identify patterns and vulnerabilities.
+- **Unified Bridge**: Acts as the communication layer between the Mothership UI and underlying AI models.
 
-## ⚠️ Disclaimer
-This engine is a research prototype. Its capabilities for autonomous system interaction require careful oversight and adherence to ethical guidelines.
+## 🛠️ Tech Stack
 
-## 🔗 Related Projects
-- [crex-daemon](https://github.com/timeless-hayoka/crex-daemon)
-- [samsung-flipper-mastery](https://github.com/timeless-hayoka/samsung-flipper-mastery)
+- **Runtime**: Node.js
+- **AI SDK**: Google Generative AI (@google/generative-ai)
+- **Configuration**: Dotenv for secure environment management.
+
+## 📦 Setup
+
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Configure Environment**:
+   Create a `.env` file with your `GEMINI_API_KEY`.
+
+3. **Initialize Core**:
+   ```bash
+   node drift-core.js
+   ```
+
+---
+*Developed by timeless_heyoka // Apex Security Overhaul 2026*
